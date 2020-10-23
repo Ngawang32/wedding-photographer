@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e8e3e3;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 320px;
+  height: 200px;
+  margin: 30px;
+  transition: all 1s;
+  cursor: pointer;#d6d4d4
+
+}
+
+
+h1 {
+  color: #261919;
+  margin-left: 38.3%;
+  width: 300px;
+  text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-family: 'Petit Formal Script', cursive;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  box-shadow: 0 2px 2px 2px brown;
+}
+
+a {
+  margin-right: 40px;
+  float: right;
+  margin-bottom: 10px;
+  font-family: fantasy;
+  margin: 10px;
+  font-size: 18px;
+  color: black;
+  text-shadow:  0 2px 3px grey;
+  text-decoration: none;
+}
+
+img:hover {
+  transform: scale(1.2);
+  animation-timing-function: ease;
+}
+
+footer {
+  margin-top: 20px;
+  color: black;
+  line-height: 20px;
+  padding: 10px;
+}
