@@ -9,13 +9,12 @@ body {
 }
 
 .container {
-  width: 40%;
-  height: 60%;
+  margin: 0 auto;
+  width: 50%;
   border: 3px solid black;
-  padding: 50px;
-  margin-left: 320px;
-  margin-top: 50px;
   box-shadow: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a {
@@ -24,17 +23,26 @@ a {
   text-decoration: none;
 }
 
-h1 {
+.container h1 {
   text-align: center;
   color: white;
+  width: 100%;
+  margin-bottom: 10%;
+  font-size: 36px;
+  flex-wrap: wrap;
+}
+
+.container form {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    align-content: center;
+    justify-content: space-around;
 }
 
 input {
-    font-size: 15px;
-    width: 400px;
-    margin-left: 10%;
-    padding: 3px 10px 3px 10px;
-    margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -42,16 +50,25 @@ footer {
   line-height: 5px;
   text-align: center;
   margin-top: 100px;
+  width: 100%;
 }
 
 .name {
   padding: 5px 10px 5px 10px;
+  width: 100%;
 }
 
 .email {
   padding: 5px 10px 5px 10px;
+  width: 100%;
 }
 
 .messages {
   padding: 5px 10px 200px 10px;
+  width: 100%;
+}
+
+
+@media screen {
+  
 }

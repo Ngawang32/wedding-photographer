@@ -1,138 +1,19 @@
 /*Golbal*/
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: auto 0;
   color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  padding-top: 0;
-  margin-top: 0;
-  height: 100%;
-  width: 100%;
-  background: url('../images/wedding.jpg') no-repeat 0 -200px;
-
-}
-
-.boxes {
-  display: inline-block;
-  margin-left: 27%;
-  margin-top: 20px;
-}
-
-.boxes img {
-  margin: 10px;
-  padding: 10px;
-}
-
-section {
-  color: black;
-}
-
-
-h1 {
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 15px;
-  padding-top: 30px;
-  font-weight: 100;
-  font-family: serif;
-  font-size: 40px;
-}
-
-h4 {
-  margin-right: 20px;
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Dancing Script', cursive;
-  font-family: 'Tangerine', cursive;
-}
-
-li {
-  float: left;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-ul {
-  padding: 0;
   margin: 0;
-  margin-left: 41%;
-  overflow: hidden;
-}
-
-li a {
-  text-decoration: none;
-  color: white;
-}
-/*main*/
-main .btn {
-  margin-left: 42%;
-  padding: 20px 40px 20px 40px;
-  margin-bottom: 50px;
-  background-color: tan;
-  cursor: pointer;
-  font-size: 15px;
-  font-family: inherit;
-  font-weight: bolder;
-
-}
-
-main p {
-  margin-top: 150px;
-  text-align: center;
-  font-size: 50px;
-}
-
-/*sections*/
-section button {
-  background-color: black;
-  position: sticky;
-  bottom: 0;
-  scroll-behavior: 100vh;
-  overflow: visible;
-  cursor: pointer;
-  opacity: 0.85;
-  height: 12vh;
-}
-
-section button p {
-  text-decoration: none;
-  padding: 8px 40px 8px 50px;
-  color: #fff;
-}
-
-section p {
-  text-align: center;
-  text-decoration: underline;
-}
-
-section button img {
-  float: left;
-  margin-top: 25px;
-  padding: 5px
-  color: white;
-}
-
-section .btn2 {
-  float: right;
-  margin-bottom: 10;
-  margin-right: 10px;
-  position: sticky;
-}
-
-i {
-  color: white;
-
-}
-
-.btn:hover {
-  opacity: 0.5;
-}
-
-.btn2:hover {
-  transition: 0.5;
+  width: 100%;
+  background: url('../images/wedding.jpg') center  fixed no-repeat;
+  background-size: cover;
 }
